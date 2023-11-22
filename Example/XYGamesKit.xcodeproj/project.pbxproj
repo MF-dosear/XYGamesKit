@@ -16,7 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		0931AE0178ABC2C2C2163991 /* XYGamesKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = XYGamesKit.podspec; path = ../XYGamesKit.podspec; sourceTree = "<group>"; };
+		0931AE0178ABC2C2C2163991 /* XYGamesKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = XYGamesKit.podspec; path = ../XYGamesKit.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		1B05DDBE2B5C940E6889BAB8 /* Pods-XYGamesKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XYGamesKit_Tests.debug.xcconfig"; path = "Target Support Files/Pods-XYGamesKit_Tests/Pods-XYGamesKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		2E5F7A91D4ACE0E6D9E2115F /* Pods_XYGamesKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XYGamesKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		331EDF868BB19CDE10473F63 /* Pods-XYGamesKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XYGamesKit_Tests.release.xcconfig"; path = "Target Support Files/Pods-XYGamesKit_Tests/Pods-XYGamesKit_Tests.release.xcconfig"; sourceTree = "<group>"; };

@@ -7,7 +7,7 @@
 
 import Foundation
 
-public class YXManager: NSObject {
+public class XYManager: NSObject {
     
     @objc public class func createViewController() -> UIViewController{
         let vc = UIViewController()

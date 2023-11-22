@@ -1,0 +1,6 @@
+framework module Pods_XYGamesDemo {
+  umbrella header "Pods-XYGamesDemo-umbrella.h"
+
+  export *
+  module * { export * }
+}

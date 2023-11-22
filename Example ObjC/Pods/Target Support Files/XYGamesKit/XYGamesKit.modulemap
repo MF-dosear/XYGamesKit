@@ -1,0 +1,6 @@
+framework module XYGamesKit {
+  umbrella header "XYGamesKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

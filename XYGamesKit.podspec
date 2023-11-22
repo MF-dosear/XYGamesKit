@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
   s.author           = { 'Paul' => 'dosear@qq.com' }
   s.source           = { :git => 'https://github.com/MF-dosear/XYGamesKit.git', :tag => s.version.to_s }
 
-  s.ios.deployment_target = '10.0'
+  s.ios.deployment_target = '12.0'
 
   s.source_files = 'XYGamesKit/Classes/**/*'
   
