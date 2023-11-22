@@ -22,7 +22,7 @@ pod 'XYGamesKit'
 
 ## Author
 
-564057354@qq.com, 564057354@qq.com
+Paul, dosear@qq.com
 
 ## License
 

@@ -1,0 +1,16 @@
+PODS:
+  - XYGamesKit (0.1.0)
+
+DEPENDENCIES:
+  - XYGamesKit (from `../`)
+
+EXTERNAL SOURCES:
+  XYGamesKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  XYGamesKit: f871c8f25c92a9a678a32c0b36eb312370062de0
+
+PODFILE CHECKSUM: f6486b82beedbf7617096f5256299b2e9b1b2ee2
+
+COCOAPODS: 1.14.3

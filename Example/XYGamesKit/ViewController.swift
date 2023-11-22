@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import XYGamesKit
 
 class ViewController: UIViewController {
 
@@ -20,5 +21,12 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+        super.touchesBegan(touches, with: event)
+        
+        let vc = YXManager.createViewController()
+        self.navigationController?.pushViewController(vc, animated: true)
+    }
+    
 }
 
