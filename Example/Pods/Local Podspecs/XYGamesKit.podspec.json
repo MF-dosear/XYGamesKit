@@ -1,5 +1,8 @@
 {
   "name": "XYGamesKit",
+  "platforms": {
+    "ios": "12.0"
+  },
   "version": "0.1.0",
   "summary": "XYGamesKit.",
   "description": "XYGamesKit 游戏 SDK.",
@@ -15,8 +18,56 @@
     "git": "https://github.com/MF-dosear/XYGamesKit.git",
     "tag": "0.1.0"
   },
-  "platforms": {
-    "ios": "10.0"
+  "requires_arc": true,
+  "swift_versions": [
+    "5"
+  ],
+  "frameworks": [
+    "CoreFoundation",
+    "SystemConfiguration",
+    "CFNetwork",
+    "UIKit",
+    "StoreKit",
+    "CoreTelephony",
+    "Security",
+    "AdSupport"
+  ],
+  "libraries": [
+    "z",
+    "sqlite3",
+    "c++"
+  ],
+  "resource_bundles": {
+    "XYGamesKit": [
+      "XYGamesKit/Assets/*"
+    ]
   },
-  "source_files": "XYGamesKit/Classes/**/*"
+  "source_files": [
+    "XYGamesKit/Classes/**/*",
+    "XYGamesKit/Libraries/**/*.h"
+  ],
+  "vendored_libraries": "XYGamesKit/Libraries/**/*.a",
+  "vendored_frameworks": "XYGamesKit/Frameworks/**/*.framework",
+  "resources": [
+    "XYGamesKit/Frameworks/**/*.bundle",
+    "XYGamesKit/Libraries/**/*.bundle"
+  ],
+  "dependencies": {
+    "SVProgressHUD": [
+      "~> 2.3.1"
+    ],
+    "CryptoSwift": [
+      "~> 1.8.0"
+    ],
+    "SnapKit": [
+      "~> 5.6.0"
+    ],
+    "RxSwift": [
+      "~> 6.6.0"
+    ],
+    "RxCocoa": [
+      "~> 6.6.0"
+    ]
+  },
+  "swift_version": "5"
 }

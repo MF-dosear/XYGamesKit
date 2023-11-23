@@ -1,8 +1,10 @@
-use_frameworks!
+source 'https://github.com/CocoaPods/Specs.git'
 
 platform :ios, '12.0'
+use_frameworks!
+#use_modular_headers!
 
 target 'XYGamesDemo' do
   pod 'XYGamesKit', :path => '../'
-
+  
 end

@@ -1,0 +1,3 @@
+${PODS_ROOT}/Target Support Files/Pods-XYGamesDemo/Pods-XYGamesDemo-resources.sh
+${PODS_ROOT}/../../XYGamesKit/Resources/OneLoginSDK/OneLoginResource.bundle
+${PODS_CONFIGURATION_BUILD_DIR}/XYGamesKit/XYGamesKit.bundle

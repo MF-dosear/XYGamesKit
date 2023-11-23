@@ -24,8 +24,7 @@ class ViewController: UIViewController {
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
         super.touchesBegan(touches, with: event)
         
-        let vc = YXManager.createViewController()
-        self.navigationController?.pushViewController(vc, animated: true)
+        
     }
     
 }

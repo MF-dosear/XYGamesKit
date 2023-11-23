@@ -1,7 +1,9 @@
 CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = NO
 CONFIGURATION_BUILD_DIR = ${PODS_CONFIGURATION_BUILD_DIR}/XYGamesKit
+FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/CryptoSwift" "${PODS_CONFIGURATION_BUILD_DIR}/RxCocoa" "${PODS_CONFIGURATION_BUILD_DIR}/RxRelay" "${PODS_CONFIGURATION_BUILD_DIR}/RxSwift" "${PODS_CONFIGURATION_BUILD_DIR}/SVProgressHUD" "${PODS_CONFIGURATION_BUILD_DIR}/SnapKit" "${PODS_ROOT}/../../XYGamesKit/Frameworks/OneLoginSDK" "${PODS_ROOT}/../../XYGamesKit/Frameworks/TencentQQ"
 GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
-LIBRARY_SEARCH_PATHS = $(inherited) "${TOOLCHAIN_DIR}/usr/lib/swift/${PLATFORM_NAME}" /usr/lib/swift
+LIBRARY_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/../../XYGamesKit/Libraries/Wechat" "${TOOLCHAIN_DIR}/usr/lib/swift/${PLATFORM_NAME}" /usr/lib/swift
+OTHER_LDFLAGS = $(inherited) -l"WeChatSDK" -l"c++" -l"sqlite3" -l"z" -framework "AdSupport" -framework "CFNetwork" -framework "CoreFoundation" -framework "CoreTelephony" -framework "CryptoSwift" -framework "EAccountApiSDK" -framework "KsyzVerify" -framework "OAuth" -framework "OneLoginSDK" -framework "QuartzCore" -framework "RxCocoa" -framework "RxSwift" -framework "SVProgressHUD" -framework "Security" -framework "SnapKit" -framework "StoreKit" -framework "SystemConfiguration" -framework "TYRZUISDK" -framework "TencentOpenAPI" -framework "UIKit" -framework "account_login_sdk_noui_core"
 OTHER_SWIFT_FLAGS = $(inherited) -D COCOAPODS
 PODS_BUILD_DIR = ${BUILD_DIR}
 PODS_CONFIGURATION_BUILD_DIR = ${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)

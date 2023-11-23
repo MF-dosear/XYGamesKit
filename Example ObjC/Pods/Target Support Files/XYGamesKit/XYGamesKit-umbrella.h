@@ -10,6 +10,11 @@
 #endif
 #endif
 
+#import "XYGamesKit.h"
+#import "XYSDKHeader.h"
+#import "WechatAuthSDK.h"
+#import "WXApi.h"
+#import "WXApiObject.h"
 
 FOUNDATION_EXPORT double XYGamesKitVersionNumber;
 FOUNDATION_EXPORT const unsigned char XYGamesKitVersionString[];

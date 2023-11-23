@@ -6,3 +6,12 @@
 //
 
 import Foundation
+import XYGamesKit
+
+class XYModel: NSObject {
+    
+    func create() {
+        
+//        XYGamesKit.init()
+    }
+}

@@ -1,16 +1,47 @@
 PODS:
-  - XYGamesKit (0.1.0)
+  - CryptoSwift (1.8.0)
+  - RxCocoa (6.6.0):
+    - RxRelay (= 6.6.0)
+    - RxSwift (= 6.6.0)
+  - RxRelay (6.6.0):
+    - RxSwift (= 6.6.0)
+  - RxSwift (6.6.0)
+  - SnapKit (5.6.0)
+  - SVProgressHUD (2.3.1):
+    - SVProgressHUD/Core (= 2.3.1)
+  - SVProgressHUD/Core (2.3.1)
+  - XYGamesKit (0.1.0):
+    - CryptoSwift (~> 1.8.0)
+    - RxCocoa (~> 6.6.0)
+    - RxSwift (~> 6.6.0)
+    - SnapKit (~> 5.6.0)
+    - SVProgressHUD (~> 2.3.1)
 
 DEPENDENCIES:
   - XYGamesKit (from `../`)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - CryptoSwift
+    - RxCocoa
+    - RxRelay
+    - RxSwift
+    - SnapKit
+    - SVProgressHUD
 
 EXTERNAL SOURCES:
   XYGamesKit:
     :path: "../"
 
 SPEC CHECKSUMS:
-  XYGamesKit: 25a207344815eeb1dde202b4032dd24e05763fe7
+  CryptoSwift: 52aaf3fce7337552863b1d952e408085f0e65030
+  RxCocoa: 44a80de90e25b739b5aeaae3c8c371a32e3343cc
+  RxRelay: 45eaa5db8ee4fb50e5ebd57deec0159e97fa51e6
+  RxSwift: a4b44f7d24599f674deebd1818eab82e58410632
+  SnapKit: e01d52ebb8ddbc333eefe2132acf85c8227d9c25
+  SVProgressHUD: 4837c74bdfe2e51e8821c397825996a8d7de6e22
+  XYGamesKit: cb9b24b3342e5314c55ae02918a614e441fece86
 
-PODFILE CHECKSUM: 6472ebec9347d7359491e98ad2b92ba9d89a058e
+PODFILE CHECKSUM: b13a4a1b2d4c082c16085d58c19909f848711566
 
 COCOAPODS: 1.14.3

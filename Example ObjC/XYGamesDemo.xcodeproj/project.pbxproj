@@ -7,27 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6144CF738EED6247BD52C7AB /* Pods_XYGamesDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCE466A32929F99BDB165E58 /* Pods_XYGamesDemo.framework */; };
+		B528C43BC59B5AD66534BCBE /* Pods_XYGamesDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFF54DA97A03EA223F2E37DD /* Pods_XYGamesDemo.framework */; };
 		DA50149B2B0E10CB002A1A9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DA50149A2B0E10CB002A1A9A /* AppDelegate.m */; };
-		DA50149E2B0E10CB002A1A9A /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DA50149D2B0E10CB002A1A9A /* SceneDelegate.m */; };
-		DA5014A12B0E10CB002A1A9A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA5014A02B0E10CB002A1A9A /* ViewController.m */; };
 		DA5014A42B0E10CB002A1A9A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA5014A22B0E10CB002A1A9A /* Main.storyboard */; };
 		DA5014A62B0E10CD002A1A9A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA5014A52B0E10CD002A1A9A /* Assets.xcassets */; };
 		DA5014A92B0E10CD002A1A9A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA5014A72B0E10CD002A1A9A /* LaunchScreen.storyboard */; };
 		DA5014AC2B0E10CD002A1A9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DA5014AB2B0E10CD002A1A9A /* main.m */; };
 		DA5014B42B0E1195002A1A9A /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA5014B32B0E1195002A1A9A /* File.swift */; };
+		DACEB9402B0EF8FE00B94A5F /* NGMainVC.m in Sources */ = {isa = PBXBuildFile; fileRef = DACEB93E2B0EF8FE00B94A5F /* NGMainVC.m */; };
+		DACEB9432B0F0BD400B94A5F /* NGSwiftVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DACEB9422B0F0BD300B94A5F /* NGSwiftVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0B32AC6F5FABF192498BBD48 /* Pods-XYGamesDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XYGamesDemo.release.xcconfig"; path = "Target Support Files/Pods-XYGamesDemo/Pods-XYGamesDemo.release.xcconfig"; sourceTree = "<group>"; };
 		226EE12B20B94D4C29275BF2 /* Pods-XYGamesDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XYGamesDemo.debug.xcconfig"; path = "Target Support Files/Pods-XYGamesDemo/Pods-XYGamesDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		AFF54DA97A03EA223F2E37DD /* Pods_XYGamesDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XYGamesDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA5014962B0E10CB002A1A9A /* XYGamesDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XYGamesDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA5014992B0E10CB002A1A9A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		DA50149A2B0E10CB002A1A9A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		DA50149C2B0E10CB002A1A9A /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
-		DA50149D2B0E10CB002A1A9A /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
-		DA50149F2B0E10CB002A1A9A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		DA5014A02B0E10CB002A1A9A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		DA5014A32B0E10CB002A1A9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DA5014A52B0E10CD002A1A9A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DA5014A82B0E10CD002A1A9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -35,7 +32,9 @@
 		DA5014AB2B0E10CD002A1A9A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		DA5014B22B0E1194002A1A9A /* XYGamesDemo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "XYGamesDemo-Bridging-Header.h"; sourceTree = "<group>"; };
 		DA5014B32B0E1195002A1A9A /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
-		DCE466A32929F99BDB165E58 /* Pods_XYGamesDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XYGamesDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DACEB93E2B0EF8FE00B94A5F /* NGMainVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NGMainVC.m; sourceTree = "<group>"; };
+		DACEB93F2B0EF8FE00B94A5F /* NGMainVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NGMainVC.h; sourceTree = "<group>"; };
+		DACEB9422B0F0BD300B94A5F /* NGSwiftVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NGSwiftVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,7 +42,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6144CF738EED6247BD52C7AB /* Pods_XYGamesDemo.framework in Frameworks */,
+				B528C43BC59B5AD66534BCBE /* Pods_XYGamesDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,7 +61,7 @@
 		48E2CC6D59F75D12AE37A25E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				DCE466A32929F99BDB165E58 /* Pods_XYGamesDemo.framework */,
+				AFF54DA97A03EA223F2E37DD /* Pods_XYGamesDemo.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -90,10 +89,9 @@
 			children = (
 				DA5014992B0E10CB002A1A9A /* AppDelegate.h */,
 				DA50149A2B0E10CB002A1A9A /* AppDelegate.m */,
-				DA50149C2B0E10CB002A1A9A /* SceneDelegate.h */,
-				DA50149D2B0E10CB002A1A9A /* SceneDelegate.m */,
-				DA50149F2B0E10CB002A1A9A /* ViewController.h */,
-				DA5014A02B0E10CB002A1A9A /* ViewController.m */,
+				DACEB93F2B0EF8FE00B94A5F /* NGMainVC.h */,
+				DACEB93E2B0EF8FE00B94A5F /* NGMainVC.m */,
+				DACEB9422B0F0BD300B94A5F /* NGSwiftVC.swift */,
 				DA5014A22B0E10CB002A1A9A /* Main.storyboard */,
 				DA5014A52B0E10CD002A1A9A /* Assets.xcassets */,
 				DA5014A72B0E10CD002A1A9A /* LaunchScreen.storyboard */,
@@ -116,7 +114,7 @@
 				DA5014922B0E10CB002A1A9A /* Sources */,
 				DA5014932B0E10CB002A1A9A /* Frameworks */,
 				DA5014942B0E10CB002A1A9A /* Resources */,
-				7E41BF63208E6C3E81311BEE /* [CP] Embed Pods Frameworks */,
+				C0BCA44EB89156B72F6F9CC3 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -196,7 +194,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		7E41BF63208E6C3E81311BEE /* [CP] Embed Pods Frameworks */ = {
+		C0BCA44EB89156B72F6F9CC3 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -221,10 +219,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				DA5014B42B0E1195002A1A9A /* File.swift in Sources */,
-				DA5014A12B0E10CB002A1A9A /* ViewController.m in Sources */,
 				DA50149B2B0E10CB002A1A9A /* AppDelegate.m in Sources */,
+				DACEB9432B0F0BD400B94A5F /* NGSwiftVC.swift in Sources */,
 				DA5014AC2B0E10CD002A1A9A /* main.m in Sources */,
-				DA50149E2B0E10CB002A1A9A /* SceneDelegate.m in Sources */,
+				DACEB9402B0EF8FE00B94A5F /* NGMainVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -378,12 +376,21 @@
 				DEVELOPMENT_TEAM = 72YZ9S75TT;
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/RxCocoa\"",
+					"\"${PODS_ROOT}/Headers/Public/SVProgressHUD\"",
+					"\"${PODS_ROOT}/Headers/Public/XYGamesKit\"",
+					"\"${PODS_XCFRAMEWORKS_BUILD_DIR}/WechatOpenSDK-XCFramework/Headers\"",
+				);
 				INFOPLIST_FILE = XYGamesDemo/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -411,12 +418,21 @@
 				DEVELOPMENT_TEAM = 72YZ9S75TT;
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/RxCocoa\"",
+					"\"${PODS_ROOT}/Headers/Public/SVProgressHUD\"",
+					"\"${PODS_ROOT}/Headers/Public/XYGamesKit\"",
+					"\"${PODS_XCFRAMEWORKS_BUILD_DIR}/WechatOpenSDK-XCFramework/Headers\"",
+				);
 				INFOPLIST_FILE = XYGamesDemo/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
