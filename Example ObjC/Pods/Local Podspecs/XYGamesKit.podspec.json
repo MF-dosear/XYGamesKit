@@ -53,9 +53,6 @@
     "XYGamesKit/Libraries/**/*.bundle"
   ],
   "dependencies": {
-    "SVProgressHUD": [
-      "~> 2.3.1"
-    ],
     "CryptoSwift": [
       "~> 1.8.0"
     ],

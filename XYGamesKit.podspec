@@ -37,7 +37,6 @@ Pod::Spec.new do |s|
   s.vendored_frameworks = 'XYGamesKit/Frameworks/**/*.framework'
   s.resources = ['XYGamesKit/Frameworks/**/*.bundle','XYGamesKit/Libraries/**/*.bundle']
   
-  s.dependency 'SVProgressHUD','~> 2.3.1'
   s.dependency 'CryptoSwift','~> 1.8.0'
   s.dependency 'SnapKit','~> 5.6.0'
   s.dependency 'RxSwift','~> 6.6.0'
