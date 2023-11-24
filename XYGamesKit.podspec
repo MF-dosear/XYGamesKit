@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
   s.name             = 'XYGamesKit'
   s.platform         = :ios, '12.0'
-  s.version          = '1.0.0'
+  s.version          = '1.0.1'
   s.summary          = 'XYGamesKit.'
 
   s.description      = <<-DESC
@@ -30,7 +30,7 @@ Pod::Spec.new do |s|
   s.libraries = 'z','sqlite3','c++'
 
   s.resource_bundles = {
-      'XYGamesKit' => ['XYGamesKit/Assets/*.xcassets']
+      'XYGamesKit' => ['XYGamesKit/Assets/*']
   }
   
   s.public_header_files = ['XYGamesKit/Classes/**/*.h','XYGamesKit/Libraries/**/*.h']

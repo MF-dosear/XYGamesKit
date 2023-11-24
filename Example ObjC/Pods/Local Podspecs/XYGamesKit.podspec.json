@@ -22,9 +22,6 @@
   "swift_versions": [
     "5"
   ],
-  "xcconfig": {
-    "VALID_ARCHS": "arm64"
-  },
   "pod_target_xcconfig": {
     "VALID_ARCHS[sdk=iphonesimulator*]": ""
   },
@@ -45,7 +42,7 @@
   ],
   "resource_bundles": {
     "XYGamesKit": [
-      "XYGamesKit/Assets/*.xcassets"
+      "XYGamesKit/Assets/*"
     ]
   },
   "public_header_files": [
