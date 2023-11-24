@@ -3,7 +3,7 @@
   "platforms": {
     "ios": "12.0"
   },
-  "version": "0.1.0",
+  "version": "1.0.0",
   "summary": "XYGamesKit.",
   "description": "XYGamesKit 游戏 SDK.",
   "homepage": "https://github.com/MF-dosear/XYGamesKit",
@@ -16,7 +16,7 @@
   },
   "source": {
     "git": "https://github.com/MF-dosear/XYGamesKit.git",
-    "tag": "0.1.0"
+    "tag": "1.0.0"
   },
   "requires_arc": true,
   "swift_versions": [

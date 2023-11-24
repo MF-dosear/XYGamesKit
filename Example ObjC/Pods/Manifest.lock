@@ -10,7 +10,7 @@ PODS:
   - SVProgressHUD (2.3.1):
     - SVProgressHUD/Core (= 2.3.1)
   - SVProgressHUD/Core (2.3.1)
-  - XYGamesKit (0.1.0):
+  - XYGamesKit (1.0.0):
     - CryptoSwift (~> 1.8.0)
     - RxCocoa (~> 6.6.0)
     - RxSwift (~> 6.6.0)
@@ -40,7 +40,7 @@ SPEC CHECKSUMS:
   RxSwift: a4b44f7d24599f674deebd1818eab82e58410632
   SnapKit: e01d52ebb8ddbc333eefe2132acf85c8227d9c25
   SVProgressHUD: 4837c74bdfe2e51e8821c397825996a8d7de6e22
-  XYGamesKit: cb9b24b3342e5314c55ae02918a614e441fece86
+  XYGamesKit: 0d874cc8641db2be87eb6c40637a94b4b41222c5
 
 PODFILE CHECKSUM: b13a4a1b2d4c082c16085d58c19909f848711566
 
