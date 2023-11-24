@@ -22,6 +22,12 @@
   "swift_versions": [
     "5"
   ],
+  "xcconfig": {
+    "VALID_ARCHS": "arm64"
+  },
+  "pod_target_xcconfig": {
+    "VALID_ARCHS[sdk=iphonesimulator*]": ""
+  },
   "frameworks": [
     "CoreFoundation",
     "SystemConfiguration",
@@ -39,9 +45,13 @@
   ],
   "resource_bundles": {
     "XYGamesKit": [
-      "XYGamesKit/Assets/*"
+      "XYGamesKit/Assets/*.xcassets"
     ]
   },
+  "public_header_files": [
+    "XYGamesKit/Classes/**/*.h",
+    "XYGamesKit/Libraries/**/*.h"
+  ],
   "source_files": [
     "XYGamesKit/Classes/**/*",
     "XYGamesKit/Libraries/**/*.h"
@@ -49,8 +59,7 @@
   "vendored_libraries": "XYGamesKit/Libraries/**/*.a",
   "vendored_frameworks": "XYGamesKit/Frameworks/**/*.framework",
   "resources": [
-    "XYGamesKit/Frameworks/**/*.bundle",
-    "XYGamesKit/Libraries/**/*.bundle"
+    "XYGamesKit/Frameworks/OneLoginSDK/OneLoginResource.bundle"
   ],
   "dependencies": {
     "CryptoSwift": [

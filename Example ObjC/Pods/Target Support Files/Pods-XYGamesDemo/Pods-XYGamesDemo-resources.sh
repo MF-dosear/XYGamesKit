@@ -97,11 +97,13 @@ EOM
   esac
 }
 if [[ "$CONFIGURATION" == "Debug" ]]; then
-  install_resource "${PODS_ROOT}/../../XYGamesKit/Resources/OneLoginSDK/OneLoginResource.bundle"
+  install_resource "${PODS_ROOT}/../../XYGamesKit/Frameworks/OneLoginSDK/OneLoginResource.bundle"
+  install_resource "${PODS_ROOT}/../../XYGamesKit/Frameworks/SVProgressHUD/SVProgressHUD.framework/SVProgressHUD.bundle"
   install_resource "${PODS_CONFIGURATION_BUILD_DIR}/XYGamesKit/XYGamesKit.bundle"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
-  install_resource "${PODS_ROOT}/../../XYGamesKit/Resources/OneLoginSDK/OneLoginResource.bundle"
+  install_resource "${PODS_ROOT}/../../XYGamesKit/Frameworks/OneLoginSDK/OneLoginResource.bundle"
+  install_resource "${PODS_ROOT}/../../XYGamesKit/Frameworks/SVProgressHUD/SVProgressHUD.framework/SVProgressHUD.bundle"
   install_resource "${PODS_CONFIGURATION_BUILD_DIR}/XYGamesKit/XYGamesKit.bundle"
 fi
 

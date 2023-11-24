@@ -19,23 +19,28 @@ Pod::Spec.new do |s|
   
   s.swift_version = ['5']
   
-  valid_archs = ['arm64']
+  valid_archs = ['arm64',]
+
+  s.pod_target_xcconfig = {
+    'VALID_ARCHS[sdk=iphonesimulator*]' => ''
+  }
 
   s.frameworks  = 'CoreFoundation','SystemConfiguration','CFNetwork','UIKit','StoreKit','CoreTelephony','Security','AdSupport'
   
   s.libraries = 'z','sqlite3','c++'
 
-
   s.resource_bundles = {
-      'XYGamesKit' => ['XYGamesKit/Assets/*']
+      'XYGamesKit' => ['XYGamesKit/Assets/*.xcassets']
   }
   
-  s.source_files = 'XYGamesKit/Classes/**/*','XYGamesKit/Libraries/**/*.h'
+  s.public_header_files = ['XYGamesKit/Classes/**/*.h','XYGamesKit/Libraries/**/*.h']
+  
+  s.source_files = ['XYGamesKit/Classes/**/*','XYGamesKit/Libraries/**/*.h']
   
   s.vendored_libraries = 'XYGamesKit/Libraries/**/*.a'
 
   s.vendored_frameworks = 'XYGamesKit/Frameworks/**/*.framework'
-  s.resources = ['XYGamesKit/Frameworks/**/*.bundle','XYGamesKit/Libraries/**/*.bundle']
+  s.resources = ['XYGamesKit/Frameworks/OneLoginSDK/OneLoginResource.bundle']
   
   s.dependency 'CryptoSwift','~> 1.8.0'
   s.dependency 'SnapKit','~> 5.6.0'

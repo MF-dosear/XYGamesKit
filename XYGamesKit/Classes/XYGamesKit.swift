@@ -77,7 +77,7 @@ import OneLoginSDK
 
         debug.snp.makeConstraints { make in
             make.left.bottom.right.equalTo(0)
-            make.height.equalTo(88)
+            make.height.equalTo(44)
         }
         
         debug.addTarget(XYGamesKit.shared, action: #selector(debugAction), for: .touchUpInside)
@@ -244,21 +244,24 @@ import OneLoginSDK
         
     class private func showLoginView(){
         
-        Totas.show()
-        OneLoginPro.getPreGetTokenResult { result in
-            Totas.dismiss()
-            
-            if OneLoginPro.isPreGetTokenResultValidate(){
-            
-                let vc = NGOneLoginVC()
-                vc.phone = result?["number"] as? String
-                NGNavigationController(rootViewController: vc).presentByCurrentvc()
-            } else {
-                let vc = NGPhoneLoginVC()
-                vc.isRoot = true
-                NGNavigationController(rootViewController: vc).presentByCurrentvc()
-            }
-        }
+        let vc = NGPhoneLoginVC()
+        vc.isRoot = true
+        NGNavigationController(rootViewController: vc).presentByCurrentvc()
+//        Totas.show()
+//        OneLoginPro.getPreGetTokenResult { result in
+//            Totas.dismiss()
+//            
+//            if OneLoginPro.isPreGetTokenResultValidate(){
+//            
+//                let vc = NGOneLoginVC()
+//                vc.phone = result?["number"] as? String
+//                NGNavigationController(rootViewController: vc).presentByCurrentvc()
+//            } else {
+//                let vc = NGPhoneLoginVC()
+//                vc.isRoot = true
+//                NGNavigationController(rootViewController: vc).presentByCurrentvc()
+//            }
+//        }
     }
     
     /// 角色上报 登录成功后调用

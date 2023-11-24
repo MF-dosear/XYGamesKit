@@ -12,14 +12,21 @@ extension UIImage {
     class func image(_ name: String) -> UIImage?{
         
         let bundle = Bundle.sdkBundle()
-        guard let url = bundle?.url(forResource: NSStringFromClass(XYGamesKit.classForCoder()), withExtension: "bundle") else { return nil }
+        guard let url = bundle?.url(forResource: "XYGamesKit", withExtension: "bundle") else {
+            return nil
+        }
+        
         guard let bundle = Bundle(url: url) else {
             return nil
         }
-        guard let path = bundle.path(forResource: name, ofType: "png") else {
-            return nil
+        
+        var image:UIImage?
+        if #available(iOS 13.0, *) {
+            image = UIImage(named: name, in: bundle, with: nil)
+        } else {
+            image = UIImage(named: name, in: bundle, compatibleWith: nil)
         }
-        return UIImage(contentsOfFile: path)
+        return image
     }
 }
 
