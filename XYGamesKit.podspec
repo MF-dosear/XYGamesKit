@@ -19,7 +19,7 @@ Pod::Spec.new do |s|
   
   s.swift_version = ['5']
   
-  valid_archs = ['arm64']
+  s.valid_archs = ['arm64']
 
   s.frameworks  = 'CoreFoundation','SystemConfiguration','CFNetwork','UIKit','StoreKit','CoreTelephony','Security','AdSupport'
   
